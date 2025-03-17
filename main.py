@@ -10,10 +10,9 @@ def play_game():
         quit("Invalid Number of Chambers!")
 
     fatal_bullet = random.randint(1, int(chambers))
-    print(f"Now The Chambers Contain {chambers} Bullets!!")
+    print(f"Now The Chambers Contain {chambers} Bullets!!\n")
     time.sleep(2)
-    print("")
-    
+
     for x in range(1, int(chambers) +1):
         input("Press Enter to Pull The Trigger!")
         if x == fatal_bullet:
