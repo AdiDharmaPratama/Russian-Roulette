@@ -22,6 +22,7 @@ def play_game():
             if startAgain and startAgain.lower()[0] == "y":
                 return play_game()
             else:
+                print("See You Soon!")
                 break
         print("You Will Live to See Another Day")
 play_game()
